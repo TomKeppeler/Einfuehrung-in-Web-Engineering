@@ -1,0 +1,15 @@
+#aufgabe{
+    text-align: left;
+    width: 50%;
+}
+#rgb{
+    
+}
+table{
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    border-color: orangered;
+}

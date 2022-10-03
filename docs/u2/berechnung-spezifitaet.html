@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="aufgabe" border="4em">
+        <tr>
+            <th>Selektoren</th>
+            <th>Spezifität</th>
+        </tr>
+        <tr>
+            <td><p>div div div:focus .inner</p></td>
+            <td><p>023</p></td>
+        </tr>
+        <tr>
+            <td><p>h1 + div.main</p></td>
+            <td><p>012</p></td>
+        </tr>
+        <tr>
+            <td><p>div a:link[href*='h-brs']</p></td>
+            <td><p>022</p></td>
+        </tr>
+        <tr>
+            <td><p>nav > a:hover::before</p></td>
+            <td><p>013</p></td>
+        </tr>
+        <tr>
+            <td><p>ul#primary-nav li.active</p></td>
+            <td><p>112</p></td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table id="rgb" border="4em">
+        <tr>
+            <th>RGB-Wert</th>
+            <th>HSL-Wert</th>
+        </tr>
+        <tr>
+            <td><p>#ffffff</p></td>
+            <td><p>(0°,0%,0%)</p></td>
+        </tr>
+        <tr>
+            <td><p>#000</p></td>
+            <td><p>(0°,0%,0%)</p></td>
+        </tr>
+        <tr>
+            <td><p>#ab0978</p></td>
+            <td><p>(319°, 90%, 35.3%)</p></td>
+        </tr>
+        <tr>
+            <td><p>rgb(127,255,33)</p></td>
+            <td><p>(95°, 100%, 56.5%)</p></td>
+        </tr>
+        <tr>
+            <td><p>rgba(255,127,33,0.8)</p></td>
+            <td><p>25 100 56.5</pck></td>
+        </tr>
+    </table>
+</body>
+</html>

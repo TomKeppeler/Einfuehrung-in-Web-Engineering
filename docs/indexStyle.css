@@ -1,0 +1,16 @@
+h2:hover{
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+}
+h2{
+  color: black;
+  font-weight: 400;
+}
+table{
+  width: 40em;
+  content: calc(80% + 1em);
+}
+#archlinux{
+  width: 4em;
+}
