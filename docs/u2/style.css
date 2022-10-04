@@ -3,13 +3,18 @@
     width: 50%;
 }
 #rgb{
-    
-}
-table{
     border-radius: 3%;
     -webkit-border-radius: 3%;
     -moz-border-radius: 3%;
     -ms-border-radius: 3%;
     -o-border-radius: 3%;
     border-color: orangered;
+}
+
+#t{
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
 }

@@ -12,5 +12,6 @@ table{
   content: calc(80% + 1em);
 }
 #archlinux{
+  src: local("index.png");
   width: 4em;
 }
