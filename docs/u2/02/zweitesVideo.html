@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box:checked + .image{
+            display: none;
+        }
+        .image {
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+        }
+        img{
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Übung 2.2</h1>
+    <input class="box" type="checkbox">hide and show via checkbox
+    <div class="image"><img src="/docs/lauder.jpg" alt="Niki Lauda in Monaco">
+        <img src="/docs/lauder.jpg" alt="Niki Lauda in Monaco">
+        <img src="/docs/lauder.jpg" alt="Niki Lauda in Monaco"></div>
 </body>
 </html>
