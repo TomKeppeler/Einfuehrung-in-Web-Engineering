@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @media all and (max-width:800px) {
+            .topbar {
+                justify-content: space-around;
+            }
+        }
+
+        @media all and (max-width: 500px) {
+            .topbar {
+                flex-direction: column;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-width: 600px) {
+            aside.right {
+                width: 100%;
+                height: 5rem;
+            }
+
+            articel {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            article {
+                width: 100%;
+            }
+
+            aside.left,
+            aside.right {
+                width: 50%;
+                height: 5rem;
+            }
+
+            article {
+                order: 1;
+            }
+
+            aside.left {
+                order: 2;
+            }
+
+            aside.right {
+                order: 3;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    
+    <aside class="left">Welcome to my WebSite</aside>
+    <article>
+        Hier könnte ihr text stehen.
+    </article>
+    <aside class="right">Jedoch steht er nicht hier!</aside>
 </body>
+
 </html>
