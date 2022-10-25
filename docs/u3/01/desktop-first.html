@@ -7,18 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @media all and (max-width:800px) {
-            .topbar {
-                justify-content: space-around;
-            }
-        }
-
-        @media all and (max-width: 500px) {
-            .topbar {
-                flex-direction: column;
-            }
-        }
-
         * {
             box-sizing: border-box;
         }
@@ -27,6 +15,31 @@
             display: flex;
             flex-wrap: wrap;
         }
+        .top{
+            flex-wrap: wrap;
+            background-color: red;
+            padding: 10%;
+        }
+        .right{
+            flex-wrap: wrap;
+            background-color: black;
+            padding: 10%;
+        }
+        .left{
+            flex-wrap: wrap;
+            background-color: green;
+            padding: 10%;
+        }
+        .center{
+            flex-wrap: wrap;
+            background-color: yellow;
+            padding: 10%;
+        }
+        .botton{
+            flex-wrap: wrap;
+            background-color: black;
+            padding: 10%;
+        }
 
         @media screen and (max-width: 600px) {
             aside.right {
@@ -34,7 +47,7 @@
                 height: 5rem;
             }
 
-            articel {
+            article {
                 width: 80%;
             }
         }
@@ -43,34 +56,35 @@
             article {
                 width: 100%;
             }
-
-            aside.left,
-            aside.right {
+            
+            .top.left,
+            .top.right {
                 width: 50%;
                 height: 5rem;
             }
 
-            article {
-                order: 1;
+            .top {
+                order: 5;
             }
 
-            aside.left {
+            .center {
                 order: 2;
             }
-
-            aside.right {
+            .left{
                 order: 3;
+            }
+            .botton{
+                order: 4;
             }
         }
     </style>
 </head>
 
 <body>
-    <aside class="left">Welcome to my WebSite</aside>
-    <article>
-        Hier könnte ihr text stehen.
-    </article>
-    <aside class="right">Jedoch steht er nicht hier!</aside>
+    <nav class="top"></nav>
+    <aside class="center"></aside>
+    <article class="left"></article>
+    <aside class="botton"></aside>
 </body>
 
 </html>
