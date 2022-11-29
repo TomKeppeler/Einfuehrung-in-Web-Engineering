@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/docs/style.css">
-    <title>Übung 1.1</title>
+  <meta charset="UTF-8">
+  <title>Einführung in Web Engineering</title>
+  <link rel="stylesheet" href="/docs/style.css">
 </head>
 <body>
 	<header>
@@ -34,7 +33,7 @@
 			</ul>
 		</nav>
 			<article>
-                
+				<-- TODO: set Content in here!!! -->
 			</article>
 		</main>
 	<footer>
