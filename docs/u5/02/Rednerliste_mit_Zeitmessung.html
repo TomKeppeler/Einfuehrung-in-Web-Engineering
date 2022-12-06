@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function addPerson() {
+            const presentorName = document.getElementById('input');
+            if(presentorName.value !== '') {
+                const list = document.getElementById('list');
+                list.innerHTML += "<li>" + presentorName.value + " <button onclick='startStopp(this)'>Stop</button></li>";
+                presentorName.value = '';
+            }
+        }
+        function startStopp(element) {
+            if(element.innerHTML === 'Stop') {
+                element.innerHTML = 'Start';
+            } else {
+                element.innerHTML = 'Stopp';
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="container">
+    <label for="input">new Presenter: </label><input type="text" id="input" placeholder="input name here" required>
+    <button id="add" onclick="addPerson()">add</button>
+    <ul id="list"></ul>
+</div>
+</body>
+</html>
