@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script>
-        function addPerson() {
-            const presentorName = document.getElementById('input');
-            if(presentorName.value !== '') {
-                const list = document.getElementById('list');
-                list.innerHTML += "<li>" + presentorName.value + " <button onclick='startStopp(this)'>Stop</button></li>";
-                presentorName.value = '';
-            }
-        }
-        function startStopp(element) {
-            if(element.innerHTML === 'Stop') {
-                element.innerHTML = 'Start';
-            } else {
-                element.innerHTML = 'Stopp';
-            }
-        }
-    </script>
+
+
+    <script src="module.js"></script>
 </head>
 <body>
 <div id="container">
-    <label for="input">new Presenter: </label><input type="text" id="input" placeholder="input name here" required>
+    <label for="input">new Presenter: </label><input id="input" placeholder="input name here" required type="text">
     <button id="add" onclick="addPerson()">add</button>
     <ul id="list"></ul>
+
+
+    <div class="wrapper">
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+    </div>
+
 </div>
 </body>
 </html>
