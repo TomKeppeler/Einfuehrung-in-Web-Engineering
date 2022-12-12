@@ -6,14 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        const performanceOfMethod = (method) => {
-            const start = performance.now();
-            method = 'Hello World';
-            const end = performance.now();
-            return [end, start];
-        };
-    </script>
 </head>
 <body>
     <h1 id="here"></h1>
@@ -36,7 +28,8 @@
         div.outerHTML = "outerHTML worked";
         end = performance.now();
         const outerHTMLTime = end - start;
-        
+
+
         const print = (innerHTMLTime, innerTextTime, textContentTime, outerHTMLTime) => {
             console.log(`innerHTML: ${innerHTMLTime}ms`);
             console.log(`innerText: ${innerTextTime}ms`);
