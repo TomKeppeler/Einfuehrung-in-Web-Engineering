@@ -7,6 +7,7 @@
     <list default="true" id="1a88d3b4-bf68-427c-8a19-2c91456087b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/u5/02/Rednerliste_mit_Zeitmessung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u5/02/Rednerliste_mit_Zeitmessung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/u5/02/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u5/02/module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,6 +68,7 @@
       <workItem from="1670443618062" duration="95000" />
       <workItem from="1670443721949" duration="454000" />
       <workItem from="1670444176497" duration="2304000" />
+      <workItem from="1670853892166" duration="6256000" />
     </task>
     <servers />
   </component>
