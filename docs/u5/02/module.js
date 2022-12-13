@@ -39,20 +39,17 @@ function formatTime(seconds, minutes) {
 
 let presenter = [];
 let presenterIndex = 0;
-
+document.getElementById('input').addEventListener('keyup', (key) => {
+        if(key.key === 'Enter') {
+            addPerson();
+        }
+    });
 function stopAllButThis(presenterIndex) {
     for (let i = 0; i < presenter.length; i++) {
         if (i !== presenterIndex) {
             clearInterval(presenter[i].interval);
             document.getElementById("startStopButton" + i).innerHTML = "Start";
         }
-    }
-}
-
-function keyEnterEvent(key){
-    console.log(key);
-    if(key.code === 'Enter') {
-        addPerson();
     }
 }
 
