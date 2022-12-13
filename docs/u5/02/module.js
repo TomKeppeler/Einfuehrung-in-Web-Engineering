@@ -1,8 +1,8 @@
 class Presenter {
-
     constructor(name, minute, seconds, button, index) {
         this.name = name;
         this.minuten = minute;
+        this.index = index;
         this.secounds = seconds;
         this.spanTime = document.createElement('span');
         this.spanTime.innerHTML = formatTime(this.secounds, this.minuten);
@@ -10,7 +10,6 @@ class Presenter {
         this.button = button;
         this.button.addEventListener("click", () => startStop(button, this.index));
         this.button.innerHTML = "Stop";
-        this.index = index;
         this.button.setAttribute("id", "startStopButton" + this.index);
         this.interval = createInterval(this.spanTime, this.index);
     }
