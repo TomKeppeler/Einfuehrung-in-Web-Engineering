@@ -3,7 +3,7 @@ var Person = (name, firstname, age, auto) => {
         name: name,
         firstname: firstname,
         age: age,
-        auto : auto,
+        auto: auto,
         setAuto(auto) {
             this.auto = auto;
         },

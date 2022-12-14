@@ -24,7 +24,7 @@ class Presenter {
 function formatTime(seconds, minutes) {
     let viewSeconds, viewMinutes;
     if (seconds < 10) {
-        viewSeconds =  "0" + seconds;
+        viewSeconds = "0" + seconds;
     } else {
         viewSeconds = "" + seconds;
     }
@@ -39,10 +39,11 @@ function formatTime(seconds, minutes) {
 let presenter = [];
 let presenterIndex = 0;
 document.getElementById('input').addEventListener('keyup', (key) => {
-        if(key.key === 'Enter') {
-            addPerson();
-        }
-    });
+    if (key.key === 'Enter') {
+        addPerson();
+    }
+});
+
 function stopAllButThis(presenterIndex) {
     for (let i = 0; i < presenter.length; i++) {
         if (i !== presenterIndex) {

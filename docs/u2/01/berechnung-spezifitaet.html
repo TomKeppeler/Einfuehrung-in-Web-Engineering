@@ -2,107 +2,111 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Übung 2.1</title>
-    <link rel="stylesheet" href="/docs/style.css">
+    <link href="/docs/style.css" rel="stylesheet">
     <style>
-      
-        p{
+
+        p {
             padding-right: 1em;
         }
-        </style>
+    </style>
 </head>
 <body>
-    <header>
-		<ul>
-			<li><a href="/docs/index.html">Home</a></li>
-		</ul>
-		<aside>
-			<img id="hbrs" src="/docs/resources/h-brs_logo_fuers_web_erweitert.jpg" alt="hbrs-logo">
-		</aside>
-	</header>
+<header>
+    <ul>
+        <li><a href="/docs/index.html">Home</a></li>
+    </ul>
+    <aside>
+        <img alt="hbrs-logo" id="hbrs" src="/docs/resources/h-brs_logo_fuers_web_erweitert.jpg">
+    </aside>
+</header>
 
-    <main>
-        <nav>
-			<ul>
-				<li><a href="/docs/u1/01/erfolgsprinzipien-des-www.html">Übung 1.1</a></li>
-				<li><a href="/docs/u1/02/http.html">Übung 1.2</a></li>
-				<li><a href="/docs/u1/03/html-literatur-lesen-und-fragen-beantworten.html">Übung 1.3</a></li>
-				<li><a href="/docs/u1/04/Inventors-of-the-www.html">Übung 1.4</a></li>
-				<li><a href="/docs/u2/01/berechnung-spezifitaet.html">Übung 2.1</a></li>
-				<li><a href="/docs/u2/02/dynamische-verhalten.html">Übung 2.2</a></li>
-				<li><a href="/docs/u2/03/survey-form.html">Übung 2.3</a></li>
-				<li><a href="/docs/u3/01/desktop-first.html">Übung 3.1</a></li>
-				<li><a href="/docs/u3/02/grid-mobile-first.html">Übung 3.2</a></li>
-				<li><a href="/docs/u3/03/responsiv-mit-grid.html">Übung 3.3</a></li>
-				<li><a href="/docs/u4/01/funktionen.html">Übung 4.1</a></li>
-				<li><a href="/docs/u4/03/fibonacci.html">Übung 4.2</a></li>
-			</ul>
-		</nav>
-			<article>
-			</article>
-            <div>
-                <table id="aufgabe" border="4em">
-                    <tr>
-                        <th colspan="2">Spezifität der CSS-Selektoren</th>
-                    </tr>
-                    <tr>
-                        <th>Selektoren</th>
-                        <th>Spezifität</th>
-                    </tr>
-                    <tr>
-                        <td><p>div div div:focus .inner</p></td>
-                        <td><p>023</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>h1 + div.main</p></td>
-                        <td><p>012</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>div a:link[href*='h-brs']</p></td>
-                        <td><p>022</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>nav > a:hover::before</p></td>
-                        <td><p>013</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>ul#primary-nav li.active</p></td>
-                        <td><p>112</p></td>
-                    </tr>
-                    <tr>
-                        <th colspan="2">RGB-Werte in HSL-Werte</th>
-                    </tr>
-                    <tr>
-                        <th>RGB-Wert</th>
-                        <th>HSL-Wert</th>
-                    </tr>
-                    <tr>
-                        <td><p>#ffffff</p></td>
-                        <td><p>(0°,0%,0%)</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>#000</p></td>
-                        <td><p>(0°,0%,0%)</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>#ab0978</p></td>
-                        <td><p>(319°, 90%, 35.3%)</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>rgb(127,255,33)</p></td>
-                        <td><p>(95°, 100%, 56.5%)</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>rgba(255,127,33,0.8)</p></td>
-                        <td><p>25 100 56.5</pck></td>
-                    </tr>
-                </table>
-            </div>
-		</main>
-	<footer>
-		<p>© 2022 by <a href="https://www.github.com/tomkeppeler">Tom Keppeler</a></p>
-	</footer>
+<main>
+    <nav>
+        <ul>
+            <li><a href="/docs/u1/01/erfolgsprinzipien-des-www.html">Übung 1.1</a></li>
+            <li><a href="/docs/u1/02/http.html">Übung 1.2</a></li>
+            <li><a href="/docs/u1/03/html-literatur-lesen-und-fragen-beantworten.html">Übung 1.3</a></li>
+            <li><a href="/docs/u1/04/Inventors-of-the-www.html">Übung 1.4</a></li>
+            <li><a href="/docs/u2/01/berechnung-spezifitaet.html">Übung 2.1</a></li>
+            <li><a href="/docs/u2/02/dynamische-verhalten.html">Übung 2.2</a></li>
+            <li><a href="/docs/u2/03/survey-form.html">Übung 2.3</a></li>
+            <li><a href="/docs/u3/01/desktop-first.html">Übung 3.1</a></li>
+            <li><a href="/docs/u3/02/grid-mobile-first.html">Übung 3.2</a></li>
+            <li><a href="/docs/u3/03/responsiv-mit-grid.html">Übung 3.3</a></li>
+            <li><a href="/docs/u4/01/funktionen.html">Übung 4.1</a></li>
+            <li><a href="/docs/u4/02/objecte.js">Übung 4.2</a></li>
+            <li><a href="/docs/u4/03/fibonacci.js">Übung 4.3</a></li>
+            <li><a href="/docs/u4/04/topSort.js">Übung 4.4</a></li>
+            <li><a href="/docs/u5/01/performanz-messung.html">Übung 5.1</a></li>
+            <li><a href="/docs/u5/02/Rednerliste_mit_Zeitmessung.html">Übung 5.2</a></li>
+        </ul>
+    </nav>
+    <article>
+    </article>
+    <div>
+        <table border="4em" id="aufgabe">
+            <tr>
+                <th colspan="2">Spezifität der CSS-Selektoren</th>
+            </tr>
+            <tr>
+                <th>Selektoren</th>
+                <th>Spezifität</th>
+            </tr>
+            <tr>
+                <td><p>div div div:focus .inner</p></td>
+                <td><p>023</p></td>
+            </tr>
+            <tr>
+                <td><p>h1 + div.main</p></td>
+                <td><p>012</p></td>
+            </tr>
+            <tr>
+                <td><p>div a:link[href*='h-brs']</p></td>
+                <td><p>022</p></td>
+            </tr>
+            <tr>
+                <td><p>nav > a:hover::before</p></td>
+                <td><p>013</p></td>
+            </tr>
+            <tr>
+                <td><p>ul#primary-nav li.active</p></td>
+                <td><p>112</p></td>
+            </tr>
+            <tr>
+                <th colspan="2">RGB-Werte in HSL-Werte</th>
+            </tr>
+            <tr>
+                <th>RGB-Wert</th>
+                <th>HSL-Wert</th>
+            </tr>
+            <tr>
+                <td><p>#ffffff</p></td>
+                <td><p>(0°,0%,0%)</p></td>
+            </tr>
+            <tr>
+                <td><p>#000</p></td>
+                <td><p>(0°,0%,0%)</p></td>
+            </tr>
+            <tr>
+                <td><p>#ab0978</p></td>
+                <td><p>(319°, 90%, 35.3%)</p></td>
+            </tr>
+            <tr>
+                <td><p>rgb(127,255,33)</p></td>
+                <td><p>(95°, 100%, 56.5%)</p></td>
+            </tr>
+            <tr>
+                <td><p>rgba(255,127,33,0.8)</p></td>
+                <td><p>25 100 56.5</pck></td>
+            </tr>
+        </table>
+    </div>
+</main>
+<footer>
+    <p>© 2022 by <a href="https://www.github.com/tomkeppeler">Tom Keppeler</a></p>
+</footer>
 </body>
 </html>

@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Document</title>
     <script>
-        window.onload = function(){
-            document.getElementById("auf1").innerHTML = identity(5);           
+        window.onload = function () {
+            document.getElementById("auf1").innerHTML = identity(5);
             document.getElementById("auf2").innerHTML = identity_function(5);
             document.getElementById("auf31").innerHTML = add(5, 6);
             document.getElementById("auf32").innerHTML = mul(5, 6);
             document.getElementById("auf4").innerHTML = addf(5)(6);
-            document.getElementById("auf5").innerHTML = applyf(mul)(5)(6); 
+            document.getElementById("auf5").innerHTML = applyf(mul)(5)(6);
         }
 
         function identity(a) {
@@ -26,19 +26,19 @@
         function add(a, b) {
             return a + b;
         }
-        
+
         function mul(a, b) {
             return a * b;
         }
 
         function addf(x) {
-            return function(y) {
+            return function (y) {
                 return x + y;
             };
         }
 
         function applyf(f) {
-            return function (a){
+            return function (a) {
                 return function (b) {
                     return f(a, b);
                 };
@@ -47,18 +47,18 @@
     </script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h2>Willkommen zu der Übung 4.1</h2>
-        </header>
-        <main>
-            Ausgabe Aufgabe 1.<br><span id="auf1"></span><br><br>
-            Ausgabe Aufgabe 2.<br><span id="auf2"></span><br><br>
-            Ausgabe Aufgabe 3.1<br><span id="auf31"></span><br><br>
-            Ausgabe Aufgabe 3.2<br><span id="auf32"></span><br><br>
-            Ausgabe Aufgabe 4.<br><span id="auf4"></span><br><br>
-            Ausgabe Aufgabe 5.<br><span id="auf5"></span><br><br>
-        </main>
-    </div>
+<div class="container">
+    <header>
+        <h2>Willkommen zu der Übung 4.1</h2>
+    </header>
+    <main>
+        Ausgabe Aufgabe 1.<br><span id="auf1"></span><br><br>
+        Ausgabe Aufgabe 2.<br><span id="auf2"></span><br><br>
+        Ausgabe Aufgabe 3.1<br><span id="auf31"></span><br><br>
+        Ausgabe Aufgabe 3.2<br><span id="auf32"></span><br><br>
+        Ausgabe Aufgabe 4.<br><span id="auf4"></span><br><br>
+        Ausgabe Aufgabe 5.<br><span id="auf5"></span><br><br>
+    </main>
+</div>
 </body>
 </html>

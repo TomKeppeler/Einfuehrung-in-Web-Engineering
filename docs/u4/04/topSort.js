@@ -1,19 +1,18 @@
-
 // Topologische Sortierungs Methode fuer gerichtete Graphen
 const topSort = (graph) => {
     const visited = new Set();
     const sorted = [];
-    
+
     const visit = (node) => {
         if (visited.has(node)) return;
         visited.add(node);
         graph[node].forEach(visit);
         sorted.push(node);
     };
-    
+
     Object.keys(graph).forEach(visit);
     return sorted;
-    };
+};
 
 //test
 const graph = {
@@ -29,7 +28,7 @@ const graph = {
 
 const graph2 = {
     schlafen: ['studieren', 'essen', 'prüfen'],
-    studieren : ['essen', 'prüfen'],
+    studieren: ['essen', 'prüfen'],
     essen: ['prüfen', 'studieren'],
 };
 let sorted = topSort(graph);

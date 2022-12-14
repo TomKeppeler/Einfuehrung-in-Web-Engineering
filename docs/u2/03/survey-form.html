@@ -2,48 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/docs/style.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/docs/style.css" rel="stylesheet">
     <title>Übung 2.3</title>
     <style>
-        td{
+        td {
             padding-right: 0.8em;
             padding-bottom: 0.8em;
         }
-        
-        h1{
+
+        h1 {
             text-align: center;
         }
 
-        article{
+        article {
             background-color: #a9d7d1;
         }
 
-        .form{
+        .form {
             background-color: #fafafa;
             margin-left: 1em;
             margin-right: 1em;
         }
 
-        #sec{
-            float:left;
+        #sec {
+            float: left;
         }
 
-        #first{
+        #first {
             text-align: right;
         }
 
-        .vertical-center{
+        .vertical-center {
             text-align: center;
         }
 
-        #aufgabe{
+        #aufgabe {
             text-align: left;
             width: 50%;
         }
-        
-        #rgb{
+
+        #rgb {
             border-radius: 3%;
             -webkit-border-radius: 3%;
             -moz-border-radius: 3%;
@@ -52,7 +52,7 @@
             border-color: orangered;
         }
 
-        #t{
+        #t {
             border-radius: 1em;
             -webkit-border-radius: 1em;
             -moz-border-radius: 1em;
@@ -63,56 +63,78 @@
 </head>
 <body>
 
-    <header>
-		<ul>
-			<li><a href="/docs/index.html">Home</a></li>
-		</ul>
-		<aside>
-			<img id="hbrs" src="/docs/resources/h-brs_logo_fuers_web_erweitert.jpg" alt="hbrs-logo">
-		</aside>
-	</header>
-	<main>
-		<nav>
-			<ul>
-				<li><a href="/docs/u1/01/erfolgsprinzipien-des-www.html">Übung 1.1</a></li>
-				<li><a href="/docs/u1/02/http.html">Übung 1.2</a></li>
-				<li><a href="/docs/u1/03/html-literatur-lesen-und-fragen-beantworten.html">Übung 1.3</a></li>
-				<li><a href="/docs/u1/04/Inventors-of-the-www.html">Übung 1.4</a></li>
-				<li><a href="/docs/u2/01/berechnung-spezifitaet.html">Übung 2.1</a></li>
-				<li><a href="/docs/u2/02/dynamische-verhalten.html">Übung 2.2</a></li>
-				<li><a href="/docs/u2/03/survey-form.html">Übung 2.3</a></li>
-				<li><a href="/docs/u3/01/desktop-first.html">Übung 3.1</a></li>
-				<li><a href="/docs/u3/02/grid-mobile-first.html">Übung 3.2</a></li>
-				<li><a href="/docs/u3/03/responsiv-mit-grid.html">Übung 3.3</a></li>
-				<li><a href="/docs/u4/01/funktionen.html">Übung 4.1</a></li>
-				<li><a href="/docs/u4/03/fibonacci.html">Übung 4.2</a></li>
-			</ul>
-		</nav>
-			<article>
-                <h1>Survey Form</h1>
-                <div class="form">
-                    <form>
-                    <p style="text-align: center;padding-top: 2.2em;">Let us know how we can improve freeCodeCamp: <a href="mailto:support@freecodecamp.org"> Mail-Us</a></p>
-                    <table>
-                        <tr><td id="first">* Name:</td><td id="sec"><input placeholder="Enter your name" type="text" name="name" id="name" required></td></tr>
-                        <tr><td id="first">* Email:</td><td id="sec"><input placeholder="Enter your Email" type="email" name="email" id="email" required></td></tr>
-                        <tr><td id="first">* Age:</td><td id="sec"><input placeholder="Age" type="number" name="age" id="age" required></td></tr>
-                        <tr><td id="first"><label for="role">Wich option best describes your current role?</label></td>
-                            <td id="sec"><select name="role" id="role">
-                                    <option value="student">Student</option>
-                                    <option value="beginner">Beginner</option>
-                                    <option value="professional">Professional</option>
-                                    <option value="hobbyist">Hobbyist</option>
-                                </select>
-                                </td></tr>
-                        <tr><td id="first"><label for="recommend">* How likely is that you would recommend freeCodeCamp to a friend?</label></td>
-                        <td id="sec"><input type="radio" class="rec" name="recommend" id="definitely" required>Definitely <br>
-                        <input type="radio" class="rec" name="recommend" id="maybe" required>Maybe <br>
-                        <input type="radio" class="rec" name="recommend" id="not-sure" required>Not Sure</td> 
+<header>
+    <ul>
+        <li><a href="/docs/index.html">Home</a></li>
+    </ul>
+    <aside>
+        <img alt="hbrs-logo" id="hbrs" src="/docs/resources/h-brs_logo_fuers_web_erweitert.jpg">
+    </aside>
+</header>
+<main>
+    <nav>
+        <ul>
+            <li><a href="/docs/u1/01/erfolgsprinzipien-des-www.html">Übung 1.1</a></li>
+            <li><a href="/docs/u1/02/http.html">Übung 1.2</a></li>
+            <li><a href="/docs/u1/03/html-literatur-lesen-und-fragen-beantworten.html">Übung 1.3</a></li>
+            <li><a href="/docs/u1/04/Inventors-of-the-www.html">Übung 1.4</a></li>
+            <li><a href="/docs/u2/01/berechnung-spezifitaet.html">Übung 2.1</a></li>
+            <li><a href="/docs/u2/02/dynamische-verhalten.html">Übung 2.2</a></li>
+            <li><a href="/docs/u2/03/survey-form.html">Übung 2.3</a></li>
+            <li><a href="/docs/u3/01/desktop-first.html">Übung 3.1</a></li>
+            <li><a href="/docs/u3/02/grid-mobile-first.html">Übung 3.2</a></li>
+            <li><a href="/docs/u3/03/responsiv-mit-grid.html">Übung 3.3</a></li>
+            <li><a href="/docs/u4/01/funktionen.html">Übung 4.1</a></li>
+            <li><a href="/docs/u4/02/objecte.js">Übung 4.2</a></li>
+            <li><a href="/docs/u4/03/fibonacci.js">Übung 4.3</a></li>
+            <li><a href="/docs/u4/04/topSort.js">Übung 4.4</a></li>
+            <li><a href="/docs/u5/01/performanz-messung.html">Übung 5.1</a></li>
+            <li><a href="/docs/u5/02/Rednerliste_mit_Zeitmessung.html">Übung 5.2</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h1>Survey Form</h1>
+        <div class="form">
+            <form>
+                <p style="text-align: center;padding-top: 2.2em;">Let us know how we can improve freeCodeCamp: <a
+                        href="mailto:support@freecodecamp.org"> Mail-Us</a></p>
+                <table>
+                    <tr>
+                        <td id="first">* Name:</td>
+                        <td id="sec"><input id="name" name="name" placeholder="Enter your name" required type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="first">* Email:</td>
+                        <td id="sec"><input id="email" name="email" placeholder="Enter your Email" required
+                                            type="email"></td>
+                    </tr>
+                    <tr>
+                        <td id="first">* Age:</td>
+                        <td id="sec"><input id="age" name="age" placeholder="Age" required type="number"></td>
+                    </tr>
+                    <tr>
+                        <td id="first"><label for="role">Wich option best describes your current role?</label></td>
+                        <td id="sec"><select id="role" name="role">
+                            <option value="student">Student</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="professional">Professional</option>
+                            <option value="hobbyist">Hobbyist</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="first"><label for="recommend">* How likely is that you would recommend freeCodeCamp to a
+                            friend?</label></td>
+                        <td id="sec"><input class="rec" id="definitely" name="recommend" required type="radio">Definitely
+                            <br>
+                            <input class="rec" id="maybe" name="recommend" required type="radio">Maybe <br>
+                            <input class="rec" id="not-sure" name="recommend" required type="radio">Not Sure
+                        </td>
                     </tr>
                     <tr>
                         <td id="first">What do you like most in FCC:</td>
-                        <td id="sec"><select name="like" id="like">
+                        <td id="sec"><select id="like" name="like">
                             <option value="select-pls">Select an option</option>
                             <option value="code-formatting">Learn how to write good code</option>
                             <option value="amount-code-languages">Great amount of codding languages</option>
@@ -122,19 +144,21 @@
                     </tr>
                     <tr>
                         <td id="first">Things that should be improved in the future<br>(Check all that apply):</td>
-                        <td id="sec"><input type="checkbox" name="front-dev" id="front-dev">Front-end Projects<br>
-                        <input type="checkbox" name="back-dev" id="bacl-dev">Back-end Projects<br>
-                        <input type="checkbox" name="data-visualization" id="data-visualization">Data Visualization</td>
+                        <td id="sec"><input id="front-dev" name="front-dev" type="checkbox">Front-end Projects<br>
+                            <input id="bacl-dev" name="back-dev" type="checkbox">Back-end Projects<br>
+                            <input id="data-visualization" name="data-visualization" type="checkbox">Data Visualization
+                        </td>
                     </tr>
-                    </table>
-                    <div class="vertical-center"><div class="submit-button"><input type="submit" name="submit" id="submit"></div>
-                </form>
-                </div>
-			</article>
-		</main>
-	<footer>
-		<p>© 2022 by <a href="https://www.github.com/tomkeppeler">Tom Keppeler</a></p>
-	</footer>
+                </table>
+                <div class="vertical-center">
+                    <div class="submit-button"><input id="submit" name="submit" type="submit"></div>
+            </form>
+        </div>
+    </article>
+</main>
+<footer>
+    <p>© 2022 by <a href="https://www.github.com/tomkeppeler">Tom Keppeler</a></p>
+</footer>
 
 </body>
 </html>

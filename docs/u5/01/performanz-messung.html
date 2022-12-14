@@ -3,40 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Document</title>
 </head>
 <body>
-    <h1 id="here"></h1>
-    <script>
-        const div = document.getElementById('here');
-        div.appendChild(document.createTextNode("didn't work"));    
-        let start = performance.now();
-        div.innerHTML = "innerHTML worked";
-        let end = performance.now();
-        const innerHTMLTime = end - start;
-        start = performance.now();
-        div.innerText = "innerText worked";
-        end = performance.now();
-        const innerTextTime = end - start;
-        start = performance.now();
-        div.textContent = "textContent worked";
-        end = performance.now();
-        const textContentTime = end - start;
-        start = performance.now();
-        div.outerHTML = "outerHTML worked";
-        end = performance.now();
-        const outerHTMLTime = end - start;
+<h1 id="here"></h1>
+<script>
+    const div = document.getElementById('here');
+    div.appendChild(document.createTextNode("didn't work"));
+    let start = performance.now();
+    div.innerHTML = "innerHTML worked";
+    let end = performance.now();
+    const innerHTMLTime = end - start;
+    start = performance.now();
+    div.innerText = "innerText worked";
+    end = performance.now();
+    const innerTextTime = end - start;
+    start = performance.now();
+    div.textContent = "textContent worked";
+    end = performance.now();
+    const textContentTime = end - start;
+    start = performance.now();
+    div.outerHTML = "outerHTML worked";
+    end = performance.now();
+    const outerHTMLTime = end - start;
 
 
-        const print = (innerHTMLTime, innerTextTime, textContentTime, outerHTMLTime) => {
-            console.log(`innerHTML: ${innerHTMLTime}ms`);
-            console.log(`innerText: ${innerTextTime}ms`);
-            console.log(`textContent: ${textContentTime}ms`);
-            console.log(`outerHTML: ${outerHTMLTime}ms`);
-        };
-        print(innerHTMLTime, innerTextTime, textContentTime, outerHTMLTime);
-    </script>
+    const print = (innerHTMLTime, innerTextTime, textContentTime, outerHTMLTime) => {
+        console.log(`innerHTML: ${innerHTMLTime}ms`);
+        console.log(`innerText: ${innerTextTime}ms`);
+        console.log(`textContent: ${textContentTime}ms`);
+        console.log(`outerHTML: ${outerHTMLTime}ms`);
+    };
+    print(innerHTMLTime, innerTextTime, textContentTime, outerHTMLTime);
+</script>
 </body>
 </html>
