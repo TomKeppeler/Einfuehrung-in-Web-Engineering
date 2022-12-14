@@ -6,27 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1a88d3b4-bf68-427c-8a19-2c91456087b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u1/01/erfolgsprinzipien-des-www.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u1/01/erfolgsprinzipien-des-www.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u1/02/http.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u1/02/http.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u1/03/html-literatur-lesen-und-fragen-beantworten.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u1/03/html-literatur-lesen-und-fragen-beantworten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u1/04/Inventors-of-the-www.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u1/04/Inventors-of-the-www.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u2/01/berechnung-spezifitaet.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u2/01/berechnung-spezifitaet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u2/02/dynamische-verhalten.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u2/02/dynamische-verhalten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u2/02/erstesVideo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u2/02/erstesVideo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u2/02/zweitesVideo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u2/02/zweitesVideo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u2/03/survey-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u2/03/survey-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u3/01/desktop-first.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u3/01/desktop-first.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u3/02/grid-mobile-first.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u3/02/grid-mobile-first.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u3/03/responsiv-mit-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u3/03/responsiv-mit-grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/u4/01/funktionen.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u4/01/funktionen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u4/02/objecte.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u4/02/objecte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u4/03/fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u4/03/fibonacci.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u4/04/topSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u4/04/topSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/u5/01/performanz-messung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u5/01/performanz-messung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/u5/02/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u5/02/module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/u5/02/Rednerliste_mit_Zeitmessung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u5/02/Rednerliste_mit_Zeitmessung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTTP Request" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -90,7 +72,7 @@
       <workItem from="1670443721949" duration="454000" />
       <workItem from="1670444176497" duration="2304000" />
       <workItem from="1670853892166" duration="12331000" />
-      <workItem from="1671013170435" duration="3431000" />
+      <workItem from="1671013170435" duration="4280000" />
     </task>
     <servers />
   </component>
