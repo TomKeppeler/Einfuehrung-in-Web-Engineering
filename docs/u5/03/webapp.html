@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Einführung in Web Engineering</title>
+    <title>Topologische Sortierung</title>
     <link href="/docs/style.css" rel="stylesheet">
 </head>
 <body>
@@ -38,13 +37,20 @@
         </ul>
     </nav>
     <article>
-        <-- TODO: set Content in here!!! -->
+        <form>
+            <label for="predecessor">Vorgänger:</label><br>
+            <input type="text" id="predecessor"><br>
+            <label for="successor">Nachfolger:</label><br>
+            <input type="text" id="successor"><br><br>
+            <button type="button" onclick="calculateTopologicalSort()">Topologische Sortierung berechnen</button>
+            <div style="border-style: solid;">
+                <p id="result" style="padding-left: 4px"></p>
+            </div>
+        </form>
     </article>
 </main>
 <footer>
     <p>© 2022 by <a href="https://www.github.com/tomkeppeler">Tom Keppeler</a></p>
 </footer>
-
 </body>
-
 </html>
