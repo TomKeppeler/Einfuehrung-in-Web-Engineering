@@ -22,6 +22,8 @@
       <change beforePath="$PROJECT_DIR$/docs/u5/02/Rednerliste_mit_Zeitmessung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u5/02/Rednerliste_mit_Zeitmessung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/u6/01/Klammerpaare.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u6/01/Klammerpaare.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/u6/02/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u6/02/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/u7/01/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u7/02/textanalyse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/u7/02/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/u7/01/function.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IUxoOOzXBPDynMBVp50sAqpcdx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
