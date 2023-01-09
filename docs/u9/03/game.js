@@ -1,9 +1,27 @@
 const tttTable = document.querySelector('#ttt');
 
-let turn = true;
-
 tttTable.addEventListener('click', onClickMethode);
 
+let turn = true;
+
+class cell {
+    constructor (col, row) {
+        this.col = col;
+        this.row = row;
+        this.clicked = false;
+        this.owner = '';
+    }
+    setOwner (owner) {
+        this.owner = owner;
+    }
+    setClicked () {
+        this.clicked = true;
+    }
+}
+const cells = [];
+cells[0] = [false, false, false];
+cells[1] = [false, false, false];
+cells[2] = [false, false, false];
 
 
 function onClickMethode (e) {
@@ -16,23 +34,32 @@ function onClickMethode (e) {
             clickedCell.className = 'oDisplay';
             clickedCell.innerHTML = '<svg><use xlink:href="#circle"/></svg>';
         }
+        const cellPosition = clickedCell.id.split(',');
+        const cell = cells[cellPosition[0]][cellPosition[1]];
+        cell.setClicked();
+        cell.setOwner(turn ? 'X' : 'O');
         turn = !turn;
+        testIfWon(cell);
     }
-    testIfWon(clickedCell);
 }
 
 function testIfWon(clickedCell) {
-    const cells = tttTable.querySelectorAll('td');
-    const winningCombinations = [
-        [cells[0], cells[1], cells[2]],
-        [cells[3], cells[4], cells[5]],
-        [cells[6], cells[7], cells[8]],
-        [cells[0], cells[3], cells[6]],
-        [cells[1], cells[4], cells[7]],
-        [cells[2], cells[5], cells[8]],
-        [cells[0], cells[4], cells[8]],
-        [cells[2], cells[4], cells[6]]
+    winningCombination = [
+        [cells[0][0], cells[0][1], cells[0][2]],
+        [cells[1][0], cells[1][1], cells[1][2]],
+        [cells[2][0], cells[2][1], cells[2][2]],
+        [cells[0][0], cells[1][0], cells[2][0]],
+        [cells[0][1], cells[1][1], cells[2][1]],
+        [cells[0][2], cells[1][2], cells[2][2]],
+        [cells[0][0], cells[1][1], cells[2][2]],
+        [cells[0][2], cells[1][1], cells[2][0]]
     ];
-    //todo: check if the clicked cell is part of a winning combination
-    
+    for (const winningCombinationKey in winningCombination) {
+        for (const cell in winningCombinationKey) {
+            if(cell.clicked) {
+
+            }
+        }
+    }
+
 }
