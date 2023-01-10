@@ -6,4 +6,4 @@ console.log( add(true, true ) );
 console.log( add(true, false ) );
 let y : number;
 let x : number = y = 1; //y wurde nicht definiert
-console.log( add(equals(x,y), equals(y,x)) );
+console.log( /*add(equals(x,y),*/ equals(y,x));
