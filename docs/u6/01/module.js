@@ -11,11 +11,11 @@ function checkKlammern() {
     let valid = true;
 
     for (let i = 0; i < text.length; i++) {
-        const charakter = text[i];
-        if (charakter === '[' || charakter === '(' || charakter === '{') {
-            klammern.push(charakter);
-        } else if (charakter === ']' || charakter === ')' || charakter === '}') {
-            if (klammern.length === 0 || paare[klammern.pop()] !== charakter) {
+        const character = text[i];
+        if (character === '[' || character === '(' || character === '{') {
+            klammern.push(character);
+        } else if (character === ']' || character === ')' || character === '}') {
+            if (klammern.length === 0 || paare[klammern.pop()] !== character) {
                 valid = false;
                 break;
             }
