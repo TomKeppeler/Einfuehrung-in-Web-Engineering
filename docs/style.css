@@ -79,7 +79,9 @@ main aside {
 
 main nav {
     border-right: 1px solid black;
+ 
 }
+
 
 main nav ul {
     display: flex;
