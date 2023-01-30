@@ -92,3 +92,40 @@ footer {
     background-color: #ccc;
     border-top: 1px solid black;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    header nav {
+        flex-grow: 0;
+    }
+    header ul {
+        justify-content: space-around;
+    }
+    main nav,
+    main aside {
+        padding: 0;
+    }
+    main nav {
+        border-right: none;
+    }
+    main nav ul {
+        flex-direction: row;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    header ul {
+        flex-direction: column;
+    }
+    header li {
+        padding: 0.5rem;
+    }
+}
+    
+@media screen and (max-width: 300px) {
+    header li {
+        padding: 0.25rem;
+    } 
+}
