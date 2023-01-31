@@ -67,11 +67,6 @@ footer li {
     padding: 1rem;
 }
 
-li:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 main nav,
 main aside {
     padding: 1rem;
