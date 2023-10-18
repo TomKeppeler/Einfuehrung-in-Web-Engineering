@@ -6,8 +6,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Document</title>
     <style>
-        .box:checked + .image {
-            display: none;
+        .box:not(:checked) + .image {
+            visibility: hidden;
         }
 
         .image {
